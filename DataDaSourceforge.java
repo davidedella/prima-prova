@@ -10,6 +10,8 @@ public class DataDaSourceforge {
 	// SourceForge date, probably read from database
 	//int sfDate = 940000000;
 	int sfDate = 947617928;
+	int modifica1;
+	int modifica2;
 	
 	// Create Java Date class from SourceForge date
 	// Java Date is milliseconds so multiply by 1000
@@ -17,6 +19,8 @@ public class DataDaSourceforge {
 	//System.out.println("l vale" + w);
 	
 	java.util.Date actDate = new java.util.Date(l);
+
+	modifica1 = 123;
 	
 	// Create Java Calendar class to manipulate date
 	Calendar cal = Calendar.getInstance();
